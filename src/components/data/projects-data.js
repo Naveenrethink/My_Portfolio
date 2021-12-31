@@ -4,7 +4,7 @@ export const ProjectData = [
     title: "Netflix Clone",
     about:
       "This is the clone of the Netflix webapp which i created using Reactjs.",
-    tag: ["HTML", "CSS", "JAVASCRIPT", "REACTJS", "FIREBASE"],
+    tag: ["CSS", "JAVASCRIPT", "REACTJS", "FIREBASE"],
     demo: "https://netflix-clone-2ffd2.web.app/",
     github: "https://github.com/Naveenrethink/Netflix-clone",
     image: require("../../image/netflix.png"),
@@ -14,7 +14,7 @@ export const ProjectData = [
     title: "Website Using Java",
     about:
       "This is the project which was created with Java and mysql during my internship at Shiash infotech.",
-    tag: ["JAVA", "MYSQL"],
+    tag: ["HTML", "JAVA", "MYSQL"],
     demo: false,
     github: "https://github.com/Naveenrethink/Website",
     image: require("../../image/javaWebsite.png"),
