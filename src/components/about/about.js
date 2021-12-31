@@ -18,7 +18,7 @@ function about() {
         </div>
         <div className="about-photo">
           <img
-            src={require("../../image/developer.jpg")}
+            src={require("../../image/developer.png")}
             alt={"mainsvg"}
             className="picture"
           ></img>
