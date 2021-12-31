@@ -1,0 +1,65 @@
+.mobile {
+  background-color: rgba(223, 240, 239, 0.8);
+  backdrop-filter: blur(1.5px);
+  height: 100vh;
+  width: 60vw;
+  position: absolute;
+  right: 0px;
+  top: -6px;
+  padding: 18px 12px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px 0px 50px 50px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
+.option {
+  padding: 10px 0px;
+}
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+}
+.mobile-options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.mobile-option {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 12px 0px;
+  display: flex;
+}
+.option:hover {
+  color: white;
+  background-color: #23cdaf;
+  border-radius: 10px;
+  padding: 5px 5px 0px 5px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  transition: all ease 0.1s;
+}
+
+.mobile-option a {
+  text-decoration: none;
+
+  display: flex;
+  color: #23cdaf;
+}
+
+.mobile-option a:hover {
+  text-decoration: none;
+  border-radius: 10px 10px;
+  padding: 4px;
+  display: flex;
+  color: white;
+  background-color: #23cdaf;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  transition: all ease 0.1s;
+}

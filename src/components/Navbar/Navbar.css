@@ -1,0 +1,91 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  position: relative;
+  align-items: center;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.web-menu {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  font-size: 32px;
+  color: white;
+  background-image: linear-gradient(
+    to right top,
+    #d8f2f0,
+    #d0f0ef,
+    #c8efee,
+    #c0eded,
+    #b8ebec,
+    #aae8e8,
+    #9ce5e4,
+    #8ee2e0,
+    #77ddd6,
+    #5fd8cb,
+    #44d3be,
+    #23cdaf
+  );
+  font-weight: 800;
+  border-radius: 10px 10px;
+  padding: 2px;
+}
+.options {
+  font-size: 24px;
+
+  margin: 12px 0px;
+  display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Home {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .Home {
+    width: 100%;
+  }
+  .mobile-menu {
+    display: flex;
+    color: #23cdaf;
+  }
+  .options:hover {
+    font-size: 24px;
+    margin: 12px 0px;
+    border-radius: 10px 10px;
+    padding: 4px;
+    display: flex;
+    background-color: #23cdaf;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    transition: all ease 0.2s;
+  }
+
+  .web-menu {
+    display: none;
+  }
+  .logo {
+    font-size: 24px;
+  }
+}

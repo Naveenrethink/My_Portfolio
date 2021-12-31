@@ -1,0 +1,133 @@
+.project-card {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0px;
+}
+.project-image {
+  width: 40%;
+  margin: 50px 0px;
+  align-items: center;
+}
+
+.project-info {
+  margin-right: 24px;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  margin-bottom: 50px;
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.project-tags {
+  display: flex;
+  max-width: 60%;
+  flex: wrap;
+}
+.tag {
+  padding: 4px 8px;
+  background-image: linear-gradient(
+    to right top,
+    #23cdaf,
+    #44d3be,
+    #5fd8cb,
+    #77ddd6,
+    #8ee2e0,
+    #9ce5e4,
+    #aae8e8,
+    #b8ebec,
+    #c0eded,
+    #c8efee,
+    #d0f0ef,
+    #d8f2f0
+  );
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+}
+
+.project-links {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  max-width: 60%;
+  flex: wrap;
+}
+
+.project-link {
+  margin-top: 6px;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right top,
+    #23cdaf,
+    #44d3be,
+    #5fd8cb,
+    #77ddd6,
+    #8ee2e0,
+    #9ce5e4,
+    #aae8e8,
+    #b8ebec,
+    #c0eded,
+    #c8efee,
+    #d0f0ef,
+    #d8f2f0
+  );
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 6px;
+}
+.link-button:hover {
+  background-image: linear-gradient(
+    to right top,
+    #d8f2f0,
+    #d0f0ef,
+    #c8efee,
+    #c0eded,
+    #b8ebec,
+    #aae8e8,
+    #9ce5e4,
+    #8ee2e0,
+    #77ddd6,
+    #5fd8cb,
+    #44d3be,
+    #23cdaf
+  );
+  color: white;
+}
+
+.link-button i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+@media only screen and (max-width: 720px) {
+  .project-image {
+    width: 70%;
+  }
+  .project-card {
+    flex-direction: column-reverse;
+  }
+  .project-info {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
+  .project-tags {
+    max-width: 100%;
+  }
+}

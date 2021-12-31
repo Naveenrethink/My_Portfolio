@@ -1,0 +1,93 @@
+.about {
+  padding-bottom: 40px;
+}
+
+.about-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.picture {
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+}
+
+.about-info {
+  font-size: 24px;
+  padding: 20px;
+}
+
+.imp {
+  color: #23cdaf;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.download1 {
+  background-image: linear-gradient(
+    to right top,
+    #23cdaf,
+    #44d3be,
+    #5fd8cb,
+    #77ddd6,
+    #8ee2e0,
+    #9ce5e4,
+    #aae8e8,
+    #b8ebec,
+    #c0eded,
+    #c8efee,
+    #d0f0ef,
+    #d8f2f0
+  );
+  padding: 6px 12px;
+  margin-top: 7px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.download1:hover {
+  background-image: linear-gradient(
+    to right top,
+    #d8f2f0,
+    #d0f0ef,
+    #c8efee,
+    #c0eded,
+    #b8ebec,
+    #aae8e8,
+    #9ce5e4,
+    #8ee2e0,
+    #77ddd6,
+    #5fd8cb,
+    #44d3be,
+    #23cdaf
+  );
+}
+
+.download1 a {
+  text-decoration: none;
+  color: black;
+}
+.optional {
+  font-size: 20px;
+  margin-right: 4px;
+}
+.download1 a:hover {
+  text-decoration: none;
+  color: white;
+  transition: all ease 0.2s;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .picture {
+    height: 300px;
+    width: 300px;
+  }
+}
